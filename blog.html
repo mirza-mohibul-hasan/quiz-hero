@@ -4,10 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Quiz Blog</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                common: ["Rubik", "sans-serif"],
+              },
+            },
+          },
+        };
+      </script>
 </head>
-<body>
-    <h1>Blog</h1>
+<body class="font-common p-4">
+    <h1 class="text-center text-4xl p-4 font-semibold">Blog</h1>
+    <section class="bg-orange-200 p-4 rounded-xl">
+        <h1 class="text-2xl font-semibold text-center">Asked Questions</h1>
+        <div>
+            <h1 class="">Q-1: Differentiate among map, filter, forEach, and find.</h1>
+            <p>Answer: </p>
+        </div>
+        <div>
+            <h1 class="">Q-2: Differentiate among Local Storage, Section Storage and Cookies</h1>
+            <p>Answer: </p>
+        </div>
+        <div>
+            <h1 class="">Q-1: How event loop works?</h1>
+            <p>Answer: </p>
+        </div>
+    </section>
+    <section>
+        
+    </section>
 </body>
 </html>
