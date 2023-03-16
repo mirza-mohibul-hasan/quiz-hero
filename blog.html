@@ -30,48 +30,48 @@
     <section class="bg-orange-300 p-4 mt-2 rounded-lg">
         <h1 class="text-2xl font-semibold text-center text-gray-800">Asked Questions</h1>
         <div class="bg-orange-200 p-4 rounded-xl m-2">
-            <h1 class="">Q-1: Differentiate among map, filter, forEach, and find.</h1>
-            <p class="my-2">Answer:</p>
+            <h1 class="font-semibold">Q-1: Differentiate among map, filter, forEach, and find in javaScript.</h1>
+            <p class="my-2 font-semibold">Answer:</p>
             <div class="ml-2 bg-orange-100 rounded-xl p-2">
-              <p class="my-2">1. map(): In javaScript, .map() is a built-in method that allows us to create a new array by transforming each element of an existing array. The map() method applies a callback function to each element of the original array and returns a new array with the results.</p>
-              <p class="my-2">2. filter(): In JavaScript, filter() is a built-in method that allows us to create a new array with elements which passed the condition or criteria.
+              <p class="my-2"><span class="font-semibold">1. map():</span> In javaScript, .map() is a built-in method that allows us to create a new array by transforming each element of an existing array. The map() method applies a callback function to each element of the original array and returns a new array with the results.</p>
+              <p class="my-2"><span class="font-semibold">2. filter():</span> In JavaScript, filter() is a built-in method that allows us to create a new array with elements which passed the condition or criteria.
               The filter() method applies a callback function to each element of the original array and returns a new array containing only the elements for which the callback function returns true.</p>
-              <p class="my-2">3. forEach: In JavaScript, forEach() is a built-in method that allows you to iterate over the elements of an array and perform a specified action for each element. The forEach() method applies a callback function to each element of the array in order.</p>
-              <p class="my-2">4. find(): In JavaScript, find() is a built-in method that allows you to find the first element in an array that satisfies a certain condition.
+              <p class="my-2"><span class="font-semibold">3. forEach:</span> In JavaScript, forEach() is a built-in method that allows you to iterate over the elements of an array and perform a specified action for each element. The forEach() method applies a callback function to each element of the array in order.</p>
+              <p class="my-2"><span class="font-semibold">4. find():</span> In JavaScript, find() is a built-in method that allows you to find the first element in an array that satisfies a certain condition.
               The find() method applies a callback function to each element of the array and returns the first element for which the callback function returns true.</p>
             </div>
         </div>
         <div class="bg-orange-200 p-4 rounded-xl m-2">
-            <h1 class="">Q-2: Differentiate among Local Storage, Section Storage and Cookies.</h1>
-            <p class="my-2">Answer: </p>
+            <h1 class="font-semibold">Q-2: Differentiate among Local Storage, Section Storage and Cookies.</h1>
+            <p class="my-2 font-semibold">Answer: </p>
             <div class="ml-2 bg-orange-100 rounded-xl p-2">
               <p class="my-2"class="my-2">Local Storage, Session Storage, and Cookies are all client-side storage options in web browsers, but they differ in how long they store data, their storage capacity, and how they can be accessed. </p>
-              <p class="my-2">1. Local Storage: Local Storage is a persistent storage mechanism that stores data without an expiration date, and the data remains stored even when the browser window is closed. Local Storage can store large amounts of data (up to 5-10 MB depending on the browser) and is accessible from any page in the same domain. Local Storage can be accessed using the localStorage object in JavaScript.</p>
-              <p class="my-2">2. Session Storage: Session Storage is similar to Local Storage, but the stored data is cleared when the browser window is closed. Session Storage can store a moderate amount of data (up to 5-10 MB depending on the browser) and is only accessible from the page that created the data. Session Storage can be accessed using the "sessionStorage" object in JavaScript.</p>
-              <p class="my-2">3. Cookies: Cookies are small text files that are stored on the client-side and sent to the server with every request. Cookies have an expiration date and can be set to expire after a specific time or when the browser window is closed. Cookies can store a limited amount of data (up to 4 KB) and are accessible from any page on the same domain that created the cookie. Cookies can be accessed using the "document.cookie" property in JavaScript.</p>
+              <p class="my-2"><span class="font-semibold">1. Local Storage:</span> Local Storage is a persistent storage mechanism that stores data without an expiration date, and the data remains stored even when the browser window is closed. Local Storage can store large amounts of data (up to 5-10 MB depending on the browser) and is accessible from any page in the same domain. Local Storage can be accessed using the localStorage object in JavaScript.</p>
+              <p class="my-2"><span class="font-semibold">2. Session Storage:</span> Session Storage is similar to Local Storage, but the stored data is cleared when the browser window is closed. Session Storage can store a moderate amount of data (up to 5-10 MB depending on the browser) and is only accessible from the page that created the data. Session Storage can be accessed using the "sessionStorage" object in JavaScript.</p>
+              <p class="my-2"><span class="font-semibold">3. Cookies:</span> Cookies are small text files that are stored on the client-side and sent to the server with every request. Cookies have an expiration date and can be set to expire after a specific time or when the browser window is closed. Cookies can store a limited amount of data (up to 4 KB) and are accessible from any page on the same domain that created the cookie. Cookies can be accessed using the "document.cookie" property in JavaScript.</p>
             </div>
         </div>
         <div class="bg-orange-200 p-4 rounded-xl m-2">
-            <h1 class="">Q-3: How event loop works?</h1>
-            <p>Answer:</p>
+            <h1 class="font-semibold">Q-3: How event loop works?</h1>
+            <p class=" my-2 font-semibold">Answer:</p>
             <div class="ml-2 bg-orange-100 rounded-xl p-2">
-              <p class="my-2"class="my-2">Event loop is that thing for which JavaScript sometimes works like asynchronous programming</p> 
+              <p class="my-2"class="my-2">Event loop is that thing for which JavaScript sometimes works like asynchronous programming. This allows for asynchronous code execution by continuously checking if there are any pending tasks in the callback queue. It helps prevent the browser from freezing by allowing long-running tasks to be handled in the background while the user interface remains responsive. The job event loop do is monitor the Call Stack and the CallbackQueue. Is the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it.</p> 
             </div>
         </div>
     </section>
     <section class="bg-green-300 p-4 mt-4 rounded-lg">
       <h1 class="text-2xl font-semibold text-center text-gray-800">How two functions work</h1>
       <div class="bg-green-200 p-4 rounded-xl m-2">
-          <h1 class="">Q-4: How quizTimer() function works?</h1>
-          <p class="my-2">Answer:</p>
+          <h1 class="font-semibold">Q-4: How quizTimer() function works?</h1>
+          <p class="my-2 font-semibold">Answer:</p>
           <div class="ml-2 bg-green-100 rounded-xl p-2">
             <p class="my-2">When we click Start Quiz button then it call quizTimer without passing any value.
               Then quizTimer function receive the value and works because the if condition is false in this time. After that when we click Submit button then it call quizTimer with a true value, for this reason quiz timer clear the interval.</p>
           </div>
       </div>
       <div class="bg-green-200 p-4 rounded-xl m-2">
-          <h1 class="">Q-5: How chooseQuiz() function works?</h1>
-          <p class="my-2">Answer: </p>
+          <h1 class="font-semibold">Q-5: How chooseQuiz() function works?</h1>
+          <p class="my-2 font-semibold">Answer: </p>
           <div class="ml-2 bg-green-100 rounded-xl p-2">
             <p class="my-2"class="my-2">When we click Start Quiz button then it call loadQuiz() method. loadQuiz() method fetch data and call displayQuiz() method with that data. Then, displayQuiz() check the data and if the data is empty then it set every question & answer to blank. If data is not empty then it use forEach looping method and show every quistion and option to the section.</p>
           </div>
